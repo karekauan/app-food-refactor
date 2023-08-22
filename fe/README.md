@@ -1,27 +1,27 @@
-# React + TypeScript + Vite
+# APPFood - Refatoramento Order Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Enviar o link do repositório com o projeto refatorado contendo o nome da dupla no README.md.Componentizar os itens da Orders para nao repetir o bloco de código abaixo:
 
-Currently, two official plugins are available:
+    <Board>
+        <header>
+            <span>⏰</span>
+            <strong>Fila de Espera</strong>
+            <span>(1)</span>
+        </header>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+        <OrdersContainer>
+            <button type="button">
+                <strong>Mesa 2</strong>
+                <span>2 itens</span>
+            </button>
+            <button type="button">
+                <strong>Mesa 2</strong>
+                <span>2 itens</span>
+            </button>
+        </OrdersContainer>
+    </Board>
 
-## Expanding the ESLint configuration
+Alunos:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+-   [André Augusto Bortoli](https://github.com/ugsto)
+-   [Kauan Antonyê Costa](https://github.com/karekauan/karekauan)
